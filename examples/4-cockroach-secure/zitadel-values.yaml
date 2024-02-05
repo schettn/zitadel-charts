@@ -7,7 +7,7 @@ zitadel:
       Enabled: false
     Database:
       Cockroach:
-        Host: zitadel-db-cockroachdb-public
+        Host: db-cockroachdb-public
         User:
           SSL:
             Mode: verify-full
