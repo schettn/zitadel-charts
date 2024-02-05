@@ -1,13 +1,13 @@
 zitadel:
-  masterkey: x123456789012345678901234567891y
+  masterkeySecretName: 'masterkey'
   configmapConfig:
     ExternalSecure: false
-    ExternalDomain: 127.0.0.1.sslip.io
+    ExternalDomain: access.netsnek.com
     TLS:
       Enabled: false
     Database:
       Cockroach:
-        Host: db-cockroachdb-public
+        Host: zitadel-db-cockroachdb-public
         User:
           SSL:
             Mode: verify-full
